@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap')
+
+.root{
+	/*-fx-background-image: url("/images/GS_CC2024_7.png");*/
+	-fx-background-color: black;
+    -fx-background-repeat: stretch;
+    -fx-background-size: 100%;
+    -fx-background-position: center center;
+}
+
+#gauges{
+    -fx-font-size: 15;
+    -fx-font-family: "Space Mono", monospace;
+    -fx-font-weight: 700;
+    -fx-font-style: normal;
+}
+
+#gauges1{
+    -fx-font-size: 17;
+    -fx-font-family: "Space Mono", monospace;
+    -fx-font-weight: 700;
+    -fx-font-style: normal;
+}
+
+#TimeMision {
+  -fx-font-family: "Figtree", sans-serif;
+  -fx-font-weight: 700;
+  -fx-font-style: normal;
+  -fx-font-size: 40;
+  -fx-letter-spacing: 10;
+}
+
+#count {
+  -fx-font-family: "Figtree", sans-serif;
+  -fx-font-weight: 600;
+  -fx-font-style: normal;
+  -fx-font-size: 30;
+  -fx-letter-spacing: 10;
+}
+
+#data {
+  -fx-font-family: "Figtree", sans-serif;
+  -fx-font-weight: 600;
+  -fx-font-style: normal;
+  -fx-font-size: 18;
+  -fx-letter-spacing: 10;
+}
+
+#dataGPS {
+  -fx-font-family: "Figtree", sans-serif;
+  -fx-font-weight: 600;
+  -fx-font-style: normal;
+  -fx-font-size: 15;
+  -fx-letter-spacing: 10;
+}
+
+
+#data1 {
+  -fx-font-family: "Figtree", sans-serif;
+  -fx-font-weight: 600;
+  -fx-font-style: normal;
+  -fx-font-size: 20;
+  -fx-letter-spacing: 10;
+}
+
+#tilt {
+  -fx-font-family: "Figtree", sans-serif;
+  -fx-font-weight: 600;
+  -fx-font-style: normal;
+  -fx-font-size: 15;
+  -fx-letter-spacing: 10;
+}
+
+.mygridStyle Line {
+  -fx-stroke   : black ;
+}
+
+.axis{
+	-fx-tick-label-fill: rgba(0,0,0,1);
+	-fx-tick-label-stroke:rgba(0,0,0,1);
+}
+
+.chart{
+	-fx-stroke:rgba(2,10,42,0.4);
+	-fx-border-radius: 2px;
+
+}
+
+.chart-content {
+    -fx-padding: 10px;
+}
+
+.chart-plot-background {
+    -fx-background-color: transparent;
+}
+
+/*cambiar color de los las lineas verticales */
+.chart-vertical-grid-lines {
+    -fx-stroke: rgba(249, 141, 37,1);
+}
+
+/*cambiar color de los las lineas horizontales */
+.chart-horizontal-grid-lines {
+    -fx-stroke: rgba(249, 141, 37,1);
+}
+
+.axis-label { /*Label de los ejes */
+  -fx-text-fill: #462300;
+  -fx-font-size: 15;
+  -fx-font-family: "Times New Roman";
+}
+
+
+
+.default-color0.chart-series-line { -fx-stroke:rgba(6,27,176,1); }
+.default-color1.chart-series-line { -fx-stroke:rgb(0, 131, 254); }
+.default-color2.chart-series-line { -fx-stroke:rgb(13, 60, 153 );}
+
+.combo-box{
+ 	-fx-font-size: 15px;
+	-fx-background-color: rgb(255,255,255);
+	-fx-border-radius: 20 20 20 20;
+	-fx-background-radius: 20 20 20 20;
+ }
+
+ .button{
+ 	-fx-font-size: 15px;
+	-fx-background-color: rgb(5, 10, 48);
+	-fx-alignment: center;
+	-fx-text-fill: white;
+	-fx-border-radius: 20 20 20 20;
+	-fx-background-radius: 20 20 20 20;
+ }
+
+ .button:hover{ /*Efecto hover del botón */
+ 	-fx-font-size: 15px;
+	-fx-background-color: rgb(0, 72, 149);
+	-fx-alignment: center;
+	-fx-text-fill: rgb(13, 211, 254);
+	-fx-border-radius: 20 20 20 20;
+	-fx-background-radius: 20 20 20 20;
+	-fx-effect: dropshadow(three-pass-box, rgb(0, 72, 149), 15, 0, 0, 0);
+
+ }
